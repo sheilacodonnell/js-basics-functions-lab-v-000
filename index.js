@@ -19,5 +19,5 @@ function distanceTravelledInFeet(start, destination) {
 }
 
 function calculatesFarePrice(start, destination) {
-  
+  price = distanceTravelledInFeet(start, destination)
 }

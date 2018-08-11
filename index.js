@@ -12,3 +12,7 @@ function distanceFromHqInFeet(blockNumber) {
   feetNumber = distanceFromHqInBlocks(blockNumber) * 264
   return feetNumber
 }
+
+function distanceTravelledInFeet() {
+  
+}

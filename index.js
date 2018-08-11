@@ -20,6 +20,7 @@ function distanceTravelledInFeet(startBlock, endBlock) {
   else if (endBlock > startBlock) {
     feetDistance = (endBlock - startBlock) * 264
   }
-  
   return feetDistance
 }
+
+function calculatesFarePrice(start, destination)

@@ -13,8 +13,11 @@ function distanceFromHqInFeet(blockNumber) {
   return feetNumber
 }
 
-function distanceTravelledInFeet(startBlock, endBlock) {
-  feetDistance = Math.abs(startBlock - endBlock) * 264
+function distanceTravelledInFeet(start, destination) {
+  feetDistance = Math.abs(start - destination) * 264
   return feetDistance
 }
 
+function calculatesFarePrice(start, destination) {
+  
+}

@@ -17,3 +17,4 @@ function distanceTravelledInFeet(startBlock, endBlock) {
   feetDistance = Math.abs(startBlock - endBlock) * 264
   return feetDistance
 }
+

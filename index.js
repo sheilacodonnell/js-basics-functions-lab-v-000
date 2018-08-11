@@ -1,3 +1,5 @@
 function distanceFromHqInBlocks(someValue) {
-  return someValue
+  let result
+  result = someValue
+  result
 }

@@ -14,16 +14,6 @@ function distanceFromHqInFeet(blockNumber) {
 }
 
 function distanceTravelledInFeet(startBlock, endBlock) {
-  if (startBlock > endBlock) {
-    feetDistance = (startBlock - endBlock) * 264
-  }
-  else if (endBlock > startBlock) {
-    feetDistance = (endBlock - startBlock) * 264
-  }
-  return feetDistance
-}
-
-function distanceTravelledInFeet(startBlock, endBlock) {
   feetDistance = (startBlock - endBlock) * 264
-  return Math.abs
+  return Math.abs(feetDistance)
   }
